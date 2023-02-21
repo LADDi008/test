@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>About</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+
+
+    <style>
+/* --------nav----------- */
+
+.n{ background-color:whitesmoke; color:black; padding-right: 0px; /*border: 2px solid greenyellow;*/   }
+/* .b{border: 2px solid red; }
+.b3,.b2{border: 2px solid red;} */
+.b3{padding-top:2.5vh ; display: flex; justify-content: end; margin-right: 0px;}
+.b3 i{ padding: 5px;}
+.l{ display: flex;justify-content:center;}
+
+a{color:black;}
+a:hover{color:rgb(52, 183, 167)  }
+i{font-size: 20px; color:grey}
+
+
+a{color:black; }
+a:hover{color:rgb(52, 183, 167)  }
+.l li{padding-top: 10px; padding-left:0px ; font-size: 14px; color:grey;}
+
+/* ---------dropdown--------- */
+.dropdown{display: none;}
+.dropdown-menu{left:-6vw; min-width:10vw;}
+i:hover{ color:rgb(52, 183, 167);}
+
+
+/*-------about-------  */
+.ab{
+    padding-left:10vw;   padding-right:10vw;
+}
+.ab h2{padding-top:15vh;}
+.a-img{padding-left:16vh; padding-right: 0px; }
+.b-img{padding-right:10vw ;}
+.b-img h2{margin-top:0px ;}
+/* .a-img img{} */
+.b-f{display: flex;justify-content: space-between; flex-wrap: wrap;}
+.b-c li,.a-f li{padding-bottom: 20px;}
+.b-f li{font-size: 16px;}
+.a-f{padding-right: 5vw;}
+.b-img p,.ab p ,.sk p,.fact p{font-size:15px ;}
+/* -----skill---- */
+.sk{
+    padding-left:10vw;
+    padding-right:10vw;
+}
+.h-p{display: flex; flex-wrap: wrap;
+justify-content: space-between;}
+.h-p hr{background-color: aqua;height: 1vh; width: 45vw; border: 0px; }
+.progress{height:2vh;}
+.progress-bar{background-color: rgb(52, 183, 167);}
+/* ------facts------- */
+.fact,.test{
+    padding-left:10vw;
+    padding-right:10vw;
+}
+.test{padding-top: 10vh;padding-bottom: 10vh;}
+.test1{padding-left:15vw ; padding-right: 15vw;}
+.test1 img{height: 25vh; border-radius: 60%;}
+.carousel-indicators li{border: 2px solid #34b7a7; background-color:rgb(52, 183, 167); ; }
+.bt{background-color: 2px solid red; padding-bottom: 15vh;}
+.fact1 ul{display: flex; justify-content: space-between; flex-wrap: wrap;
+    padding-left:15vw;
+    padding-right:15vw;}
+
+/* ------footer------ */
+.foot{background-color: whitesmoke;}
+.foot1{padding:4vh;}
+
+@media only screen and (max-width:800px) {
+.l {display: none;}
+.m h1{font-size:27px;}
+.m h3{font-size:20px;}
+.dropdown{display: block;}
+.a-img{padding-left:5vh; padding-right: 5vh; }
+
+}
+
+    </style>
+</head>
+<body>
+
+    <div class="nav">
+        <div class="col-lg-12 n navbar-fixed-top">
+            <div class="col-lg-1 col-xs-1 col-md-1 b"><h3>KELLY</h3></div>
+            <div class="col-lg-9 col-xs-9 col-md-9 b2 text-right ">
+                <ul class="nav nav-pills l">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="resume.html">Resume</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="portfolio.html">Potfolio</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                </ul>
+             </div>        
+            
+             <div class="col-lg-2 col-xs-2 col-md-2 b3 text-right">
+                 <a href="https://www.facebook.com/profile.php?id=100090116031736"><i class="fa-brands fa-facebook"></i></a>
+                 <a href="https://twitter.com/gurjit758"><i class="fa-brands fa-twitter"></i></a>
+                 <a href="https://www.instagram.com/gurjit.009/"><i class="fa-brands fa-instagram"></i></a>
+                 <a href="https://www.linkedin.com/in/gurjit-singh-27958924a/"><i class="fa-brands fa-linkedin"></i></a>
+    
+            <div class="dropdown text-right">
+                <button class=" dropdown-toggle" data-toggle="dropdown"><i class="fa-solid dro fa-bars"></i></button>
+            <ul class="dropdown-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="resume.html">Resume</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="portfolio.html">Potfolio</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            </div>
+            </div>
+    
+        </div>
+    </div>
+    
+
+    <div class="about">
+        <div class="col-lg-12 ">
+            <div class="col-lg-12 text-center ab"><h2><b>ABOUT</b></h2>
+               <p><br> Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.<br><br></p></div>
+    
+        </div>
+    
+        <div class="a-image">
+            <div class="col-lg-12">
+                <div class="col-lg-4  a-img b "><img src="pic/about.jpg" class="img-responsive" alt=""></div>
+    
+                <div class="col-lg-8 b-img b"><h2>Illustrator & UI/UX Designer</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br></p>
+        <div class="b-f">
+            <div class="b-c">
+                <ul class="nav">
+                    <li><b>Birthday:</b> 1 May 1995</li>
+                    <li><b>Website:</b> www.example.com</li>
+                    <li><b>Phone:</b> +123 456 7890</li>
+                    <li><b>City:</b> City : New York, USA</li>
+                </ul>
+            </div>
+            <div class="a-f">
+                <ul class="nav">
+                    <li><b>Age:</b> 30</li>
+                    <li><b>Degree:</b>  Master</li>
+                    <li><b>PhEmailone:</b> email@example.com</li>
+                    <li><b>Freelance:</b>  Available</li>
+                </ul>
+            </div>
+            
+            </div>
+            <p>Officiis eligendi itaque labore et dolorum mollitia officiis optio vero. Quisquam sunt adipisci omnis et ut. Nulla accusantium dolor incidunt officia tempore. Et eius omnis. Cupiditate ut dicta maxime officiis quidem quia. Sed et consectetur qui quia repellendus itaque neque. Aliquid amet quidem ut quaerat cupiditate. Ab et eum qui repellendus omnis culpa magni laudantium dolores.</p>
+    
+            </div>
+    
+        </div>    
+            
+        </div>
+    </div>
+    
+    
+    
+    <div class="skill">
+    <div class="col-lg-12">
+    <div class="div-xs-12 sk text-center b"><h2><b>SKILLS</b></h2>
+    <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+    </div>
+    <div class="col-lg-12 b nav">
+        
+            <div class="col-md-6 b h-j">
+                <div class="col-xs-6"><li><b>HTML</b></li></div><div class="col-xs-6 text-right"><li><b>100%</b></li></div>
+                <div class="col-xs-12"> <div class="progress">
+                    <div class="progress-bar progress-bar-success"  style="width:100%;" ></div></div></div>
+
+                    <div class="col-xs-6"><li><b>CSS</b></li></div><div class="col-xs-6 text-right"><li><b>90%</b></li></div>
+                <div class="col-xs-12"> <div class="progress">
+                    <div class="progress-bar progress-bar-success"  style="width:90%;" ></div></div></div>
+
+                    <div class="col-xs-6"><li><b>JAVASCRIPT</b></li></div><div class="col-xs-6 text-right"><li><b>70%</b></li></div>
+                    <div class="col-xs-12"> <div class="progress">
+                        <div class="progress-bar progress-bar-success"  style="width:70%;" ></div></div></div>
+    
+                </div>
+
+                <div class="col-md-6 b h-j">
+                    <div class="col-xs-6"><li><b>PHP</b></li></div><div class="col-xs-6 text-right"><li><b>85%</b></li></div>
+                    <div class="col-xs-12"> <div class="progress">
+                        <div class="progress-bar progress-bar-success"  style="width:85%;" ></div></div></div>
+    
+                        <div class="col-xs-6"><li><b>WORDPRESS/CMS</b></li></div><div class="col-xs-6 text-right"><li><b>90%</b></li></div>
+                    <div class="col-xs-12"> <div class="progress">
+                        <div class="progress-bar progress-bar-success"  style="width:90%;" ></div></div></div>
+    
+                        <div class="col-xs-6"><li><b>PHOTOSHOP</b></li></div><div class="col-xs-6 text-right"><li><b>55%</b></li></div>
+                        <div class="col-xs-12"> <div class="progress">
+                            <div class="progress-bar progress-bar-success"  style="width:55%;" ></div></div></div>
+        
+                   
+                </div>
+        
+    </div>
+    
+    
+    
+    </div>
+    </div>
+
+
+    <div class="facts">
+        <div class="col-lg-12">
+            <div class="col-lg-12 fact text-center b"><h2><b>FACTS</b></h2>
+                <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+            </div>
+            <div class="col-lg-12 fact1 b">
+                <ul class="pagination text-center">
+               <li><h1>232</h1>Clients</li>
+               <li><h1>521</h1>Projects</li>
+               <li><h1>1463</h1>Hours Of Support</li>
+               <li><h1>15</h1>Hard Workers</li>
+                </ul>
+                
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="testimonals">
+
+        <div class="col-lg-12">
+            <div class="col-lg-12 test text-center b"><h2><b>TESTIMONIALS</b></h2>
+                <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+            </div>
+
+            <div class="container">
+
+                <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators ">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1" ></li>
+                    <li data-target="#myCarousel" data-slide-to="2" ></li>
+                    <li data-target="#myCarousel" data-slide-to="3" ></li>
+
+                </ol>
+
+                <div class="carousel-inner" role="listbox">
+                    <div class="item active">
+                
+                            <div class="col-lg-12 text-center bt test1"><img class="center-block" src="pic/about.jpg"><h4><b>Sara Wilsson</b></h4><h5>Designer</h5><p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. </p> </div>
+                        
+                    </div>
+                    <div class="item ">
+                      
+                            <div class="col-lg-12 text-center bt test1"><img class="center-block" src="pic/about.jpg"><h4><b>Sara Wilsson</b></h4><h5>Designer</h5><p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. </p> </div>
+                        
+                    </div>
+                    <div class="item ">
+                       
+                            <div class="col-lg-12 text-center bt test1"><img class="center-block" src="pic/about.jpg"><h4><b>Sara Wilsson</b></h4><h5>Designer</h5><p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. </p> </div>
+                        
+                    </div>
+                    <div class="item ">
+                       
+                        <div class="col-lg-12 text-center bt test1"><img class="center-block" src="pic/about.jpg"><h4><b>Sara Wilsson</b></h4><h5>Designer</h5><p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. </p> </div>
+                    
+                </div>
+                </div>
+
+                </div>
+            </div>
+
+            
+        
+        </div>
+
+    </div>
+
+
+
+    <div class="footer">
+        <div class="col-lg-12 foot">
+            <div class="col-lg-12 text-center b foot1">© Copyright <b>Kelly</b>. All Rights Reserved<br>
+                Designed by <a>BootstrapMade</a</div>
+        </div>
+    </div>
+
+
+</body>
+</html>

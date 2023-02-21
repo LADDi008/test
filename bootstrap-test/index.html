@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<style>
+ 
+ /* ---------nav---------- */
+.n{ background-color:whitesmoke; color:black; padding-right: 0px; /*border: 2px solid greenyellow;*/   }
+/* .b{border: 2px solid red; }
+.b3,.b2{border: 2px solid red;} */
+.b3{padding-top:2.5vh ; display: flex; justify-content: end; margin-right: 0px;}
+.b3 i{ padding: 5px;}
+.l{ display: flex;justify-content:center;}
+
+a{color:black;}
+a:hover{color:rgb(52, 183, 167)  }
+
+
+i{font-size: 20px; color:grey}
+.l li{padding-top: 10px; padding-left:0px ; font-size: 14px; color:grey;}
+.image{background-image: url("pic/portfolio-8.jpg"); height: 100vh;
+background-repeat: no-repeat; background-size: cover;background-position: center;
+background-attachment: fixed;
+}
+.m{ padding-top:30vh; /*border: 2px solid red;*/}
+.m h3{color: grey;font-family:"Raleway";}
+.btn{border-radius:30px; width:22vh; font-size:small; }
+.f{background-color: whitesmoke; padding-top:4vh ; padding-bottom:4vh ; }
+/* .ft{height:13vh;} */
+.l li:hover{color: black;}
+
+
+/* ---------dropdown--------- */
+.dropdown{display: none;}
+.dropdown-menu{left:-6vw; min-width:10vw;}
+i:hover{ color:rgb(52, 183, 167);}
+
+@media only screen and (max-width:800px) {
+.l {display: none;}
+.m h1{font-size:27px;}
+.m h3{font-size:20px;}
+.dropdown{display: block;}
+
+}
+
+
+</style>    
+</head>
+<body>
+
+    
+
+<div class="nav">
+    <div class="col-lg-12 n navbar-fixed-top">
+        <div class="col-lg-1 col-xs-1 col-md-1 b"><h3>KELLY</h3></div>
+        <div class="col-lg-9 col-xs-9 col-md-9 b2 text-right ">
+            <ul class="nav nav-pills l">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="resume.html">Resume</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="portfolio.html">Potfolio</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            </ul>
+         </div>        
+        
+         <div class="col-lg-2 col-xs-2 col-md-2 b3 text-right">
+             <a href="https://www.facebook.com/profile.php?id=100090116031736"><i class="fa-brands fa-facebook"></i></a>
+             <a href="https://twitter.com/gurjit758"><i class="fa-brands fa-twitter"></i></a>
+             <a href="https://www.instagram.com/gurjit.009/"><i class="fa-brands fa-instagram"></i></a>
+             <a href="https://www.linkedin.com/in/gurjit-singh-27958924a/"><i class="fa-brands fa-linkedin"></i></a>
+
+        <div class="dropdown text-right">
+            <button class=" dropdown-toggle" data-toggle="dropdown"><i class="fa-solid dro fa-bars"></i></button>
+        <ul class="dropdown-menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="resume.html">Resume</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="portfolio.html">Potfolio</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        </div>
+        </div>
+
+    </div>
+</div>
+
+<div class="main">
+<div class="col-lg-12 image text-center ">
+    <div class="col-lg-12 m"><h1><b>Kelly Adams</b></h1><h3>I'm a professional illustrator from San Francisco</h3><button class=" btn btn-primary btn-lg">ABOUT ME</button></div>
+</div>
+
+</div>
+
+<div class="footer">
+    <div class="col-lg-12  f ">
+        <div class="col-12-lg text-center ft">© Copyright <b>Kelly</b>. All Rights Reserved<br>
+            Designed by <a>BootstrapMade</a></div>
+    </div>
+</div>
+
+
+    
+    
+</body>
+</html>
